@@ -1,0 +1,191 @@
+/*
+ * Feel free to change name of colors if you need it
+ * Feel free to add new colors if you need it
+
+:root {
+    --bg-color--dark: #0b192f;
+    --bg-color--header: #162b4d;
+    --link: #fff;
+    --link--hover: #b8b8b8;
+    --bg-footer-color: #162b4d;;
+}
+*/
+.post-1 {
+    background: #B71757;
+}
+
+.post-2 {
+    background: #0D7E71;
+}
+
+.post-3 {
+    background: #b1660e;
+}
+
+.post-4 {
+    background: #d12767;
+}
+
+.post-5 {
+    background: #2d95bb;
+}
+
+html {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #0b192f;
+}
+
+body {
+    margin: 0;
+    padding: 0 28vh;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+#wrapper {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    max-width: 100vw;
+    min-width: 430px;
+    margin: 0 auto 15px;
+    padding: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #162b4d;
+}
+
+
+main {
+    width: 74.5%;
+
+    background-color: #6aff2e;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+
+}
+
+img {
+    max-width: 27vw;
+    min-width: 50%;
+    height: auto;
+
+}
+
+.post-1 .post-3 {
+
+
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: auto;
+    max-width: 27vw;
+    text-align: right;
+
+
+}
+
+
+.post-2_photo {
+
+}
+
+.post-2 {
+
+}
+
+.post-3_photo {
+
+
+}
+
+.post-3 {
+}
+
+.post-4_photo {
+
+
+}
+
+.post-4 {
+}
+
+@media {
+    
+}
+@media  {
+    
+}
+aside {
+   background-color: #b1660e;
+
+    float:right;
+    width: 10%;
+    height: 300px;
+    margin: 10px;
+
+    /*background-image: url(../assets/news1.jpg);*/
+}
+
+
+.heading {
+    font-size: small;
+    display: flex;
+    align-items: center;
+}
+
+.header_section {
+    float: right;
+}
+
+.header_section a {
+    text-decoration: none;
+}
+
+.header_section ul {
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+.header_section li {
+    list-style-position: inside;
+    font: 14px 'Oswald', sans-serif;
+    padding: 10px;
+}
+
+.top-menu:hover {
+    background-color: #283D5F;
+}
+
+.top-menu li {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.top-menu a {
+    color: #ffffff;
+}
+
+
+/*
+footer {
+    margin-top: 20px;
+    background-color: #162b4d;
+    height: 40vh;
+}
+*/
+
