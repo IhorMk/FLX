@@ -1,5 +1,5 @@
-function equation(a, b, c) {
-    if (a === 0) return "Введено неприпустиме значення даних"
+function equad(a,b,c) {
+    if (a === 0) return "Введено неприпустиме значення даних";
     var D = b * b - 4 * a * c;
     var x1, x2;
     if (D > 0) {
@@ -16,7 +16,7 @@ function prog() {
     var a = document.getElementById('a').value;
     var b = document.getElementById('b').value;
     var c = document.getElementById('c').value;
-    var result = equation(a, b, c);
+    var result = equad(a,b,c);
     document.getElementById('result').textContent = result;
 
 }
